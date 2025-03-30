@@ -274,4 +274,366 @@
     color: #777;
     text-align: center;
   }
-   
+  .botao-pdf,
+  .botao-compra {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    color: white; /* COR DO TEXTO BRANCA */
+  }
+  
+  /* Botão de PDF gratuito */
+  .botao-pdf {
+    background-color: #0077cc;
+  }
+  
+  .botao-pdf:hover {
+    background-color: #005999;
+  }
+  
+  /* Botão de compra */
+  .botao-compra {
+    background-color: #28a745;
+  }
+  
+  .botao-compra:hover {
+    background-color: #218838;
+  }
+  .botao-pdf,
+.botao-compra {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  color: white; /* COR DO TEXTO BRANCA */
+}
+
+/* Botão de PDF gratuito */
+.botao-pdf {
+  background-color: #0077cc;
+}
+
+.botao-pdf:hover {
+  background-color: #005999;
+}
+
+/* Botão de compra */
+.botao-compra {
+  background-color: #28a745;
+}
+
+.botao-compra:hover {
+  background-color: #218838;
+}
+.botao-pdf,
+.botao-compra {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  color: white; /* COR DO TEXTO EM BRANCO */
+}
+
+/* Botão de PDF gratuito */
+.botao-pdf {
+  background-color: #0077cc;
+}
+
+.botao-pdf:hover {
+  background-color: #005999;
+}
+
+/* Botão de compra */
+.botao-compra {
+  background-color: #28a745;
+}
+
+.botao-compra:hover {
+  background-color: #218838;
+}
+.botao-pdf,
+.botao-compra {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  color: white; /* COR DO TEXTO EM BRANCO */
+}
+
+/* Botão de PDF gratuito */
+.botao-pdf {
+  background-color: #0077cc;
+}
+
+.botao-pdf:hover {
+  background-color: #005999;
+}
+
+/* Botão de compra */
+.botao-compra {
+  background-color: #28a745;
+}
+
+.botao-compra:hover {
+  background-color: #218838;
+}
+.botao-pdf,
+.botao-compra {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  background-color: #0077cc;
+  color: white !important; /* FORÇA o texto a ficar branco */
+}
+
+/* Quando passar o mouse */
+.botao-pdf:hover {
+  background-color: #005999;
+  color: white !important;
+}
+
+.botao-compra {
+  background-color: #28a745;
+}
+
+.botao-compra:hover {
+  background-color: #218838;
+  color: white !important;
+}
+/* Estilo para seções da página inicial */
+main section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  /* Títulos principais */
+  .boas-vindas h2 {
+    font-size: 28px;
+    color: #0077cc;
+    margin-bottom: 15px;
+  }
+  
+  /* Subtítulos das seções */
+  main h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Texto geral */
+  main p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  /* Lista com ícones */
+  main ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  main ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+  }
+  
+  main ul li::before {
+    content: "✨";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+  }
+  
+  /* Links no texto */
+  main a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mensagem final */
+  .mensagem-final {
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    color: #555;
+  }
+  /* Estilo geral da seção sobre */
+.sobre {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  /* Títulos da seção */
+  .sobre h2 {
+    font-size: 28px;
+    color: #0077cc;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .sobre h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Parágrafos */
+  .sobre p {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  /* E-mail em destaque */
+  .sobre strong {
+    color: #0077cc;
+    font-weight: bold;
+  }
+  .botao-pdf {
+    display: inline-block;
+    background-color: #0077cc;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-pdf:hover {
+    background-color: #005999;
+  }
+  .botao-pdf {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-pdf:hover {
+    background-color: #0056b3;
+  }
+  .botao-pdf {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-pdf:hover {
+    background-color: #0056b3;
+  }
+  .botao-pdf {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-pdf:hover {
+    background-color: #0056b3;
+  }
+  .botao-compra {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-compra:hover {
+    background-color: #1e7e34;
+  }
+  
+  .opcao-compra {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .botao-compra {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-compra:hover {
+    background-color: #1e7e34;
+  }
+  .botao-compra {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-compra:hover {
+    background-color: #1e7e34;
+  }
+  
