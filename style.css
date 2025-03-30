@@ -234,4 +234,44 @@
   .botao-compra:hover {
     background-color: #218838;
   }
+  .termos {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
   
+  .termos h2 {
+    color: #0077cc;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .termos h3 {
+    color: #005999;
+    margin-top: 25px;
+  }
+  
+  .termos p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .termos a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .termos .assinatura {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+  }
+   
